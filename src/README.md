@@ -37,6 +37,15 @@ A super simple FastAPI application that allows students to view and sign up for 
 Signing up an email that is already registered for the activity returns HTTP 400.
 Unregistering a missing activity or participant returns HTTP 404.
 
+## Running tests
+
+From the repository root, install the dependencies and run the backend tests:
+
+```sh
+pip install -r requirements.txt
+python -m pytest tests
+```
+
 ## Data Model
 
 The application uses a simple data model with meaningful identifiers:
